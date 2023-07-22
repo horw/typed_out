@@ -1,7 +1,9 @@
 import curses
+import os
 import random
 import time
 from curses import wrapper
+print(os.getcwd())
 
 words = []
 with open('common_word') as f:
