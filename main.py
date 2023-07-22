@@ -4,7 +4,7 @@ import time
 from curses import wrapper
 
 words = []
-with open('common_word.txt') as f:
+with open('common_word') as f:
     for line in f.readlines():
         words.append(line.lower().strip('\n'))
 
